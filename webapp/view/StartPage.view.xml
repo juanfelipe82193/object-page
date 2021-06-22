@@ -69,7 +69,12 @@
         </uxap:headerTitle>
         <uxap:headerContent>
             <FlexBox wrap="Wrap" fitContainer="true">
-                <f:Avatar src="../img/imageID_275314.png" class="sapUiMediumMarginEnd sapUiSmallMarginBottom" displaySize="L"/>
+                <f:Avatar src="{
+                    value: 'my/page/object/img/imageID_275314.png',
+                    formatter: 'sap.ui.require.toUrl'
+                    }" 
+                    class="sapUiMediumMarginEnd sapUiSmallMarginBottom" 
+                    displaySize="L"/>
                 <VBox class="sapUiLargeMarginEnd sapUiSmallMarginBottom">
                     <Title text="Contact Information" class="sapUiTinyMarginBottom"/>
                     <HBox class="sapUiTinyMarginBottom">
