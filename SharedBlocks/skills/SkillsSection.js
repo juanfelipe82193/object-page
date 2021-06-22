@@ -1,0 +1,1 @@
+sap.ui.define(["sap/uxap/BlockBase"],function(e){"use strict";var a=e.extend("my.page.object.SharedBlocks.skills.SkillsSection",{metadata:{}});return a});
