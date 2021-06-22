@@ -1,0 +1,101 @@
+<mvc:View 
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns:core="sap.ui.core"
+    xmlns="sap.m"
+    xmlns:microchart="sap.suite.ui.microchart">
+    <Title text="Skills Table" class="sapUiSmallMarginBegin" titleStyle="Auto"/>
+    <FlexBox justifyContent="Center" alignItems="Center" wrap="Wrap" class="sapUiMediumMarginBottom">
+        <Table id="skillsTable" width="auto" class="sapUiSmallMarginBeginEnd">
+            <columns>
+                <Column width="auto">
+                    <Text text="Skills Description"/>
+                </Column>
+                <Column width="auto">
+                    <Text text="Skills Percentage"/>
+                </Column>
+            </columns>
+            <items>
+                <ColumnListItem>
+                    <cells>
+                        <Text text="SAP HCM"/>
+                        <microchart:RadialMicroChart 
+                            size="Auto"
+                            percentage="100%"
+                            valueColor="Good"
+                            class="sapUiTinyMarginTopBottom"/>
+                    </cells>
+                </ColumnListItem>
+                <ColumnListItem>
+                    <cells>
+                        <Text text="SAP MRS"/>
+                        <microchart:RadialMicroChart 
+                            size="Auto"
+                            percentage="60%"
+                            valueColor="Critical"
+                            class="sapUiTinyMarginTopBottom"/>
+                    </cells>
+                </ColumnListItem>
+                <ColumnListItem>
+                    <cells>
+                        <Text text="UX/UI Design"/>
+                        <microchart:RadialMicroChart 
+                            size="Auto"
+                            percentage="80%"
+                            valueColor="Good"
+                            class="sapUiTinyMarginTopBottom"/>
+                    </cells>
+                </ColumnListItem>
+                <ColumnListItem>
+                    <cells>
+                        <Text text="SAP Implementation"/>
+                        <microchart:RadialMicroChart 
+                            size="Auto"
+                            percentage="80%"
+                            valueColor="Good"
+                            class="sapUiTinyMarginTopBottom"/>
+                    </cells>
+                </ColumnListItem>
+                <ColumnListItem>
+                    <cells>
+                        <Text text="Scrum/Kanban"/>
+                        <microchart:RadialMicroChart 
+                            size="Auto"
+                            percentage="70%"
+                            valueColor="Good"
+                            class="sapUiTinyMarginTopBottom"/>
+                    </cells>
+                </ColumnListItem>
+                <ColumnListItem>
+                    <cells>
+                        <Text text="English"/>
+                        <microchart:RadialMicroChart 
+                            size="Auto"
+                            percentage="90%"
+                            valueColor="Good"
+                            class="sapUiTinyMarginTopBottom"/>
+                    </cells>
+                </ColumnListItem>
+                <ColumnListItem>
+                    <cells>
+                        <Text text="Frontend Dev"/>
+                        <microchart:RadialMicroChart 
+                            size="Auto"
+                            percentage="50%"
+                            valueColor="Critical"
+                            class="sapUiTinyMarginTopBottom"/>
+                    </cells>
+                </ColumnListItem>
+                <ColumnListItem>
+                    <cells>
+                        <Text text="SAPUI5/SAP Fiori"/>
+                        <microchart:RadialMicroChart 
+                            size="Auto"
+                            percentage="60%"
+                            valueColor="Critical"
+                            class="sapUiTinyMarginTopBottom"/>
+                    </cells>
+                </ColumnListItem>
+            </items>
+        </Table>
+    </FlexBox>
+</mvc:View>

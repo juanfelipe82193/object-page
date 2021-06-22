@@ -1,0 +1,24 @@
+{
+    "JobExperience": [
+        {
+            "jobtitle": "Application Specialist",
+            "companydate": "(1) LafargeHolcim | Aug 2020 to present | Medellin, CO",
+            "quote": "- SAP PY, PT, PA and OM support for LafargeHolcim Northamerica region.\n\n-SAP HCM customizing according to Business requirements.\n\n-Change management and Incident support through ServiceNow.\n\n-Create and maintain documentation using Confluence.\n\n-Keep team operations and project progress in Jira by adopting Agile methodologies"
+        },
+        {
+            "jobtitle": "Senior QAT SAP Payroll Specialist",
+            "companydate": "(2) Scotiabank | Jan 2020 to Aug 2020 | Bogota, CO",
+            "quote": "- SAP Payroll testing support for Scotiabank Canada.\n\n-Test scripts planning and elaboration according to Business requirements.\n\n-Maintain data accuracy in testing environments.\n\n-Create and maintain documentation in HP ALM.\n\n-Collaborate in project progress by using Jira Kanban board"
+        },
+        {
+            "jobtitle": "SAP Functional Consultant",
+            "companydate": "(3) Deloitte | Oct 2018 to Jan 2020 | Bogota, CO",
+            "quote": "- Level 2 ticket support for the Deloitte global staffing Web and Mobile App (STAFFIT).\n\n-Requirement definition for new application releases (User Stories and Bugs), FUT and UAT follow up process.\n\n-Design and implement business solutions (Functional specification documentation and configuration).\n\n-Lead new Member Firm's deployment project of the STAFFIT implementation (Wave 7, 8 and 9).\n\n-Leading the functional team for the new and enhanced Mobile application project (Developing new Functional Specifications and working together with Business Analysts, Developers and Designers)"
+        },
+        {
+            "jobtitle": "Software Quality Assurance Tester",
+            "companydate": "(4) Deloitte | Nov 2017 to Oct 2018 | Bogota, CO",
+            "quote": "- Developing and implementing Test Plans, execute Integration Test Cycles, Regression and Functional Tests, User Acceptance Testing and Compatibility testing using virtual machines.\n\n-HPE UFT Test script automation, API data validation (Frontend vs Backend) and mobile testing.\n\n-Tracking project task and progress in VSTS Microsoft Azure."
+        }
+    ]
+}

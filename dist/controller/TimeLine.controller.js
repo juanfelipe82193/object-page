@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/core/mvc/Controller","sap/ui/core/format/DateFormat"],function(e,t){"use strict";return e.extend("my.page.object.controller.TimeLine",{onInit:function(){this.oTimeline=this.byId("timeline")},formatDateTime:function(e){var n=t.getDateInstance();return n.format(n.parse(e))}})});

@@ -1,0 +1,67 @@
+{
+    "CoursesAndCertifications": [
+        {
+            "title": "Developing and Extending SAP Fiori Elements Apps",
+            "school": "openSAP",
+            "percentValue": "50",
+            "displayValue": "50%",
+            "showValue": true,
+            "state": "Warning",
+            "objectText": "In Progress"
+        },
+        {
+            "title": "SAP Fiori Overview - Design, Develop and Deploy",
+            "school": "openSAP | Issued June 2020",
+            "percentValue": "100",
+            "displayValue": "100%",
+            "showValue": true,
+            "state": "Success",
+            "objectText": "Completed"
+        },
+        {
+            "title": "Complete JavaScript Course 2020",
+            "school": "Udemy | Issued Apr 2020",
+            "percentValue": "100",
+            "displayValue": "100%",
+            "showValue": true,
+            "state": "Success",
+            "objectText": "Completed"
+        },
+        {
+            "title": "UI Development with SAPUI5",
+            "school": "SAP | Issued Oct 2019",
+            "percentValue": "100",
+            "displayValue": "100%",
+            "showValue": true,
+            "state": "Success",
+            "objectText": "Completed"
+        },
+        {
+            "title": "SAP User Experience Fundamentals",
+            "school": "SAP | Issued Aug 2019",
+            "percentValue": "100",
+            "displayValue": "100%",
+            "showValue": true,
+            "state": "Success",
+            "objectText": "Completed"
+        },
+        {
+            "title": "SAP HCM Functional Consultant Advanced Level",
+            "school": "CVOSOFT | Issued Dec 2018",
+            "percentValue": "100",
+            "displayValue": "100%",
+            "showValue": true,
+            "state": "Success",
+            "objectText": "Completed"
+        },
+        {
+            "title": "SAP HCM Functional Consultant Beginner Level",
+            "school": "CVOSOFT | Issued Aug 2018",
+            "percentValue": "100",
+            "displayValue": "100%",
+            "showValue": true,
+            "state": "Success",
+            "objectText": "Completed"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+<mvc:View 
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns="sap.m">
+    <List 
+        headerText="Courses and Certifications List"
+        items="{certifications>/CoursesAndCertifications}"
+        class="sapUiSmallMarginTopBottom">
+        <items>
+            <CustomListItem>
+                <HBox alignContent="SpaceBetween" justifyContent="SpaceBetween">
+                    <VBox class="sapUiSmallMarginBegin sapUiSmallMarginTopBottom" width="70%">
+                        <Text text="{certifications>title}"/>
+                        <Label text="{certifications>school}" class="sapUiTinyMarginTop"/>
+                        <ProgressIndicator
+                            percentValue="{certifications>percentValue}"
+                            displayValue="{certifications>displayValue}"
+                            showValue="{certifications>showValue}"
+                            state="{certifications>state}"
+                            width="100%"/>
+                        </VBox>
+                    <ObjectStatus text="{certifications>objectText}" state="{certifications>state}" class="sapUiSmallMarginTop sapUiSmallMarginEnd"/>
+                </HBox>
+            </CustomListItem>
+        </items>
+    </List>
+</mvc:View>

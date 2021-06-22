@@ -1,0 +1,34 @@
+<mvc:View 
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns:commons="sap.suite.ui.commons"
+    xmlns:core="sap.ui.core"
+    xmlns="sap.m"
+    controllerName="my.page.object.controller.TimeLine">
+    <Title text="Timeline" class="sapUiSmallMarginBegin" titleStyle="Auto"/>
+    <FlexBox alignContent="Center" justifyContent="Center">
+        <commons:Timeline 
+            id="timeline"
+            axisOrientation="Vertical"
+            enableBusyIndicator="true"
+            enableScroll="false"
+            showSearch="false"
+            showHeaderBar="false"
+            showItemFilter="false"
+            showSort="false"
+            width="100%"
+            sortOldestFirst="true"
+            growingThreshold="0"
+            textHeight="automatic"
+            content="{experience>/JobExperience}"
+            enableDoubleSided="true"
+            class="sapUiSmallMarginBottom">
+            <commons:content>
+                <commons:TimelineItem 
+                    dateTime="{experience>companydate}"
+                    title="{experience>jobtitle}"
+                    text="{experience>quote}"
+                    icon="sap-icon://date-time"/>
+            </commons:content>
+        </commons:Timeline>
+    </FlexBox>
+</mvc:View>
