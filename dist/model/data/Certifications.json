@@ -3,10 +3,10 @@
         {
             "title": "Developing and Extending SAP Fiori Elements Apps",
             "school": "openSAP",
-            "percentValue": "70",
-            "displayValue": "70%",
+            "percentValue": "90",
+            "displayValue": "90%",
             "showValue": true,
-            "state": "Warning",
+            "state": "Success",
             "objectText": "In Progress"
         },
         {
