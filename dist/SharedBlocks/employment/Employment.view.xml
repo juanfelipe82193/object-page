@@ -1,0 +1,32 @@
+<mvc:View
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+    xmlns:table="sap.ui.table">
+    <Title text="Projects" class="sapUiSmallMarginBegin" titleStyle="Auto"/>
+    <table:TreeTable 
+        id="TreeTableBasic"
+        rows="{
+            path: 'employment>/employment',
+            parameters: {
+                arrayName: ['projects']
+            }
+        }"
+        selectionMode="None"
+        enableSelectAll="false"
+        ariaLabelledBy="title">
+        <table:columns>
+            <table:Column width="13rem">
+                <Label text="Description"/>
+                <table:template>
+                    <Text text="{employment>name}" wrapping="false"/>
+                </table:template>
+            </table:Column>
+            <table:Column width="9rem">
+                <Label text="Type"/>
+                <table:template>
+                    <Text text="{employment>type}" wrapping="false"/>
+                </table:template>
+            </table:Column>
+        </table:columns>
+    </table:TreeTable>
+</mvc:View>

@@ -1,7 +1,6 @@
 <mvc:View 
     xmlns:mvc="sap.ui.core.mvc" 
     xmlns:commons="sap.suite.ui.commons"
-    xmlns:core="sap.ui.core"
     xmlns="sap.m"
     controllerName="my.page.object.controller.TimeLine">
     <Title text="Timeline" class="sapUiSmallMarginBegin" titleStyle="Auto"/>

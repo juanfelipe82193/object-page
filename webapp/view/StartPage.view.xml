@@ -7,6 +7,7 @@
     xmlns:tl="my.page.object.SharedBlocks.job"
     xmlns:skills="my.page.object.SharedBlocks.skills"
     xmlns:cert="my.page.object.SharedBlocks.certifications"
+    xmlns:emp="my.page.object.SharedBlocks.employment"
     controllerName="my.page.object.controller.StartPage"
     height="100%">
     <f:ShellBar 
@@ -132,9 +133,18 @@
             </uxap:ObjectPageSection>
             <uxap:ObjectPageSection titleUppercase="false" id="cAndCSection" title="Courses and Certifications">
                 <uxap:subSections>
-                    <uxap:ObjectPageSubSection titleUppercase="false" id="cAndCSubSection" title="Courses and Certifications" class="sapUiMediumMarginBottom">
+                    <uxap:ObjectPageSubSection titleUppercase="false" id="cAndCSubSection" title="Courses and Certifications" >
                         <uxap:blocks>
                             <cert:CoursesAndCert id="cAndCBlock" class="sapUxAPObjectPageSubSectionAlignContent"/>
+                        </uxap:blocks>
+                    </uxap:ObjectPageSubSection>
+                </uxap:subSections>
+            </uxap:ObjectPageSection>
+            <uxap:ObjectPageSection titleUppercase="false" id="empSection" title="Projects" class="sapUiSmallMarginTop">
+                <uxap:subSections>
+                    <uxap:ObjectPageSubSection titleUppercase="false" id="empSubSection" title="Projects">
+                        <uxap:blocks>
+                            <emp:Employment id="empBlock" class="sapUxAPObjectPageSubSectionAlignContent"/>
                         </uxap:blocks>
                     </uxap:ObjectPageSubSection>
                 </uxap:subSections>

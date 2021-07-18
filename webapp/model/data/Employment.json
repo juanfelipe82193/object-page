@@ -1,0 +1,47 @@
+{
+    "employment": [
+        {
+            "name": "Holcim",
+            "projects": [
+                {
+                    "name": "West Canada HR Chatbot AI",
+                    "type": "Implementation"
+                },
+                {
+                    "name": "Year End SAP Support Packs",
+                    "type": "Implementation"
+                },
+                {
+                    "name": "Jaguar Transition NASC to ADC",
+                    "type": "Support"
+                }
+            ]
+        },
+        {
+            "name": "Scotiabank",
+            "projects": [
+                {
+                    "name": "Payroll Stabilization",
+                    "type": "Support"
+                }
+            ]
+        },
+        {
+            "name": "Deloitte",
+            "projects": [
+                {
+                    "name": "STAFFIT Wave 9",
+                    "type": "Implementation"
+                },
+                {
+                    "name": "STAFFIT Wave 8",
+                    "type": "Implementation"
+                },
+                {
+                    "name": "STAFFIT Wave 7",
+                    "type": "Implementation"
+                }
+            ]
+        }
+    ]
+}
