@@ -2,8 +2,13 @@ sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/m/library",
 	"sap/m/MessageToast",
-	"sap/ui/model/json/JSONModel"
-],	function (Controller, mobileLibrary, MessageToast, JSONModel) {
+	"sap/ui/model/json/JSONModel",
+	"sap/ui/core/BusyIndicator"
+], function (Controller,
+	mobileLibrary,
+	MessageToast,
+	JSONModel,
+	BusyIndicator) {
 	"use strict";
 
 	var URLHelper = mobileLibrary.URLHelper;
@@ -11,7 +16,7 @@ sap.ui.define([
 	return Controller.extend("my.page.object.controller.StartPage", {
 
 		onInit: function () {
-			
+			this._showBusyIndicator(5000, 0);
 		},
 
 		_getVal: function (evt) {
@@ -52,6 +57,22 @@ sap.ui.define([
 
 		onSharePressed: function () {
 			URLHelper.redirect("https://www.linkedin.com/in/juan-felipe-zorrilla-ocampo-708330135/", true);
+		},
+
+		_hideBusyIndicator: function () {
+			BusyIndicator.hide();
+		},
+		_showBusyIndicator: function (iDuration, iDelay) {
+			BusyIndicator.show(iDelay);
+			if (iDuration && iDuration > 0) {
+				if (this._sTimeoutId) {
+					clearTimeout(this._sTimeoutId);
+					this._sTimeoutId = null;
+				}
+				this._sTimeoutId = setTimeout(function () {
+					this._hideBusyIndicator();
+				}.bind(this), iDuration);
+			}
 		}
 
 	});
