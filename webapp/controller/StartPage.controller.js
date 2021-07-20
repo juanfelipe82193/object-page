@@ -73,6 +73,23 @@ sap.ui.define([
 					this._hideBusyIndicator();
 				}.bind(this), iDuration);
 			}
+		},
+		_getTheme: function () {
+			var sTheme = sap.ui.getCore().getConfiguration().getTheme();
+			return sTheme;
+		},
+		_setTheme: function (sTheme) {
+			if (sTheme) {
+				sap.ui.getCore().applyTheme(sTheme);
+				localStorage.setItem("theme", sTheme);
+			}
+		},
+		onDarkModePress: function () {
+			if (this._getTheme() === "sap_fiori_3") {
+				sap.ui.getCore().applyTheme("sap_fiori_3_dark");
+			} else {
+				sap.ui.getCore().applyTheme("sap_fiori_3");
+			}
 		}
 
 	});

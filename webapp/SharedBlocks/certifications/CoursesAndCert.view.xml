@@ -16,7 +16,8 @@
                             displayValue="{certifications>displayValue}"
                             showValue="{certifications>showValue}"
                             state="{certifications>state}"
-                            width="100%"/>
+                            width="100%"
+                            displayAnimation="true"/>
                         </VBox>
                     <ObjectStatus text="{certifications>objectText}" state="{certifications>state}" class="sapUiSmallMarginTop sapUiSmallMarginEnd"/>
                 </HBox>

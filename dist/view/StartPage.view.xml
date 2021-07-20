@@ -27,6 +27,17 @@
         <f:profile>
             <f:Avatar initials="JZ" press=".onAvatarPressed"/>
         </f:profile>
+        <f:additionalContent>
+            <OverflowToolbarButton
+                activeIcon="sap-icon://blur"
+                icon="sap-icon://blur"
+                text="Toggle dark mode"
+                textDirection="LTR"
+                type="Default"
+                visible="true"
+                press="onDarkModePress"
+                tooltip="Toggle dark mode"/>
+        </f:additionalContent>
     </f:ShellBar>
     <uxap:ObjectPageLayout 
         id="objectPageLayout"
