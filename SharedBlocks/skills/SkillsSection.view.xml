@@ -94,6 +94,16 @@
                             class="sapUiTinyMarginTopBottom"/>
                     </cells>
                 </ColumnListItem>
+                <ColumnListItem>
+                    <cells>
+                        <Text text="iOS Development"/>
+                        <microchart:RadialMicroChart 
+                            size="Auto"
+                            percentage="40%"
+                            valueColor="Critical"
+                            class="sapUiTinyMarginTopBottom"/>
+                    </cells>
+                </ColumnListItem>
             </items>
         </Table>
     </FlexBox>
